@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68DC485E2218810D00F544B0 /* WOListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC485D2218810D00F544B0 /* WOListViewController.swift */; };
+		68DC4860221896DF00F544B0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC485F221896DF00F544B0 /* File.swift */; };
 		68DD8B20220DDFC3000A1CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD8B1F220DDFC3000A1CC3 /* AppDelegate.swift */; };
 		68DD8B22220DDFC3000A1CC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD8B21220DDFC3000A1CC3 /* ViewController.swift */; };
 		68DD8B25220DDFC3000A1CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DD8B23220DDFC3000A1CC3 /* Main.storyboard */; };
 		68DD8B27220DDFC3000A1CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DD8B26220DDFC3000A1CC3 /* Assets.xcassets */; };
 		68DD8B2A220DDFC3000A1CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DD8B28220DDFC3000A1CC3 /* LaunchScreen.storyboard */; };
+		68DD8B32220F6062000A1CC3 /* CreateWorkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD8B31220F6062000A1CC3 /* CreateWorkOutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68DC485D2218810D00F544B0 /* WOListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOListViewController.swift; sourceTree = "<group>"; };
+		68DC485F221896DF00F544B0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		68DD8B1C220DDFC3000A1CC3 /* Fitness Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DD8B1F220DDFC3000A1CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68DD8B21220DDFC3000A1CC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		68DD8B26220DDFC3000A1CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68DD8B29220DDFC3000A1CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68DD8B2B220DDFC3000A1CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DD8B31220F6062000A1CC3 /* CreateWorkOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkOutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 		68DD8B13220DDFC3000A1CC3 = {
 			isa = PBXGroup;
 			children = (
+				68DC485F221896DF00F544B0 /* File.swift */,
 				68DD8B1E220DDFC3000A1CC3 /* Fitness Network */,
 				68DD8B1D220DDFC3000A1CC3 /* Products */,
 			);
@@ -56,7 +63,9 @@
 			children = (
 				68DD8B1F220DDFC3000A1CC3 /* AppDelegate.swift */,
 				68DD8B21220DDFC3000A1CC3 /* ViewController.swift */,
+				68DD8B31220F6062000A1CC3 /* CreateWorkOutViewController.swift */,
 				68DD8B23220DDFC3000A1CC3 /* Main.storyboard */,
+				68DC485D2218810D00F544B0 /* WOListViewController.swift */,
 				68DD8B26220DDFC3000A1CC3 /* Assets.xcassets */,
 				68DD8B28220DDFC3000A1CC3 /* LaunchScreen.storyboard */,
 				68DD8B2B220DDFC3000A1CC3 /* Info.plist */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68DC4860221896DF00F544B0 /* File.swift in Sources */,
 				68DD8B22220DDFC3000A1CC3 /* ViewController.swift in Sources */,
 				68DD8B20220DDFC3000A1CC3 /* AppDelegate.swift in Sources */,
+				68DC485E2218810D00F544B0 /* WOListViewController.swift in Sources */,
+				68DD8B32220F6062000A1CC3 /* CreateWorkOutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
