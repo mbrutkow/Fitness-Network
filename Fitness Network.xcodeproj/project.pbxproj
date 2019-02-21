@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68DC485E2218810D00F544B0 /* WOListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC485D2218810D00F544B0 /* WOListViewController.swift */; };
-		68DC4860221896DF00F544B0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC485F221896DF00F544B0 /* File.swift */; };
 		68DD8B20220DDFC3000A1CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD8B1F220DDFC3000A1CC3 /* AppDelegate.swift */; };
-		68DD8B22220DDFC3000A1CC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD8B21220DDFC3000A1CC3 /* ViewController.swift */; };
 		68DD8B25220DDFC3000A1CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DD8B23220DDFC3000A1CC3 /* Main.storyboard */; };
 		68DD8B27220DDFC3000A1CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DD8B26220DDFC3000A1CC3 /* Assets.xcassets */; };
 		68DD8B2A220DDFC3000A1CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DD8B28220DDFC3000A1CC3 /* LaunchScreen.storyboard */; };
 		68DD8B32220F6062000A1CC3 /* CreateWorkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD8B31220F6062000A1CC3 /* CreateWorkOutViewController.swift */; };
+		FAE683F9221E5C2B002707F2 /* Excercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE683F8221E5C2B002707F2 /* Excercise.swift */; };
+		FAE683FC221E5C9F002707F2 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE683FB221E5C9F002707F2 /* Workout.swift */; };
+		FAE68400221E60F9002707F2 /* ChristiansLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE683FE221E60F9002707F2 /* ChristiansLibrary.swift */; };
+		FAE68401221E60F9002707F2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE683FF221E60F9002707F2 /* LoadingView.swift */; };
+		FAE68403221E62EC002707F2 /* CreateWorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE68402221E62EC002707F2 /* CreateWorkoutCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		68DC485D2218810D00F544B0 /* WOListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOListViewController.swift; sourceTree = "<group>"; };
-		68DC485F221896DF00F544B0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		68DD8B1C220DDFC3000A1CC3 /* Fitness Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DD8B1F220DDFC3000A1CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68DD8B21220DDFC3000A1CC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		68DD8B24220DDFC3000A1CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68DD8B26220DDFC3000A1CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68DD8B29220DDFC3000A1CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68DD8B2B220DDFC3000A1CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68DD8B31220F6062000A1CC3 /* CreateWorkOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkOutViewController.swift; sourceTree = "<group>"; };
+		FAE683F8221E5C2B002707F2 /* Excercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise.swift; sourceTree = "<group>"; };
+		FAE683FB221E5C9F002707F2 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		FAE683FE221E60F9002707F2 /* ChristiansLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChristiansLibrary.swift; sourceTree = "<group>"; };
+		FAE683FF221E60F9002707F2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FAE68402221E62EC002707F2 /* CreateWorkoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +48,6 @@
 		68DD8B13220DDFC3000A1CC3 = {
 			isa = PBXGroup;
 			children = (
-				68DC485F221896DF00F544B0 /* File.swift */,
 				68DD8B1E220DDFC3000A1CC3 /* Fitness Network */,
 				68DD8B1D220DDFC3000A1CC3 /* Products */,
 			);
@@ -61,16 +64,43 @@
 		68DD8B1E220DDFC3000A1CC3 /* Fitness Network */ = {
 			isa = PBXGroup;
 			children = (
-				68DD8B1F220DDFC3000A1CC3 /* AppDelegate.swift */,
-				68DD8B31220F6062000A1CC3 /* CreateWorkOutViewController.swift */,
-				68DD8B21220DDFC3000A1CC3 /* ViewController.swift */,
-				68DD8B23220DDFC3000A1CC3 /* Main.storyboard */,
-				68DC485D2218810D00F544B0 /* WOListViewController.swift */,
 				68DD8B26220DDFC3000A1CC3 /* Assets.xcassets */,
+				68DD8B23220DDFC3000A1CC3 /* Main.storyboard */,
+				68DD8B1F220DDFC3000A1CC3 /* AppDelegate.swift */,
+				FAE683FA221E5C34002707F2 /* Structures */,
+				FAE683F6221E5BD9002707F2 /* Create Workout View */,
+				FAE683FD221E60F9002707F2 /* Christians Library */,
 				68DD8B28220DDFC3000A1CC3 /* LaunchScreen.storyboard */,
 				68DD8B2B220DDFC3000A1CC3 /* Info.plist */,
 			);
 			path = "Fitness Network";
+			sourceTree = "<group>";
+		};
+		FAE683F6221E5BD9002707F2 /* Create Workout View */ = {
+			isa = PBXGroup;
+			children = (
+				68DD8B31220F6062000A1CC3 /* CreateWorkOutViewController.swift */,
+				FAE68402221E62EC002707F2 /* CreateWorkoutCell.swift */,
+			);
+			path = "Create Workout View";
+			sourceTree = "<group>";
+		};
+		FAE683FA221E5C34002707F2 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				FAE683F8221E5C2B002707F2 /* Excercise.swift */,
+				FAE683FB221E5C9F002707F2 /* Workout.swift */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		FAE683FD221E60F9002707F2 /* Christians Library */ = {
+			isa = PBXGroup;
+			children = (
+				FAE683FE221E60F9002707F2 /* ChristiansLibrary.swift */,
+				FAE683FF221E60F9002707F2 /* LoadingView.swift */,
+			);
+			path = "Christians Library";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,11 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68DC4860221896DF00F544B0 /* File.swift in Sources */,
-				68DD8B22220DDFC3000A1CC3 /* ViewController.swift in Sources */,
+				FAE683F9221E5C2B002707F2 /* Excercise.swift in Sources */,
 				68DD8B20220DDFC3000A1CC3 /* AppDelegate.swift in Sources */,
-				68DC485E2218810D00F544B0 /* WOListViewController.swift in Sources */,
+				FAE68400221E60F9002707F2 /* ChristiansLibrary.swift in Sources */,
+				FAE68401221E60F9002707F2 /* LoadingView.swift in Sources */,
+				FAE68403221E62EC002707F2 /* CreateWorkoutCell.swift in Sources */,
 				68DD8B32220F6062000A1CC3 /* CreateWorkOutViewController.swift in Sources */,
+				FAE683FC221E5C9F002707F2 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
