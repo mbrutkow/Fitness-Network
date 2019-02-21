@@ -17,6 +17,7 @@
 		FAE68400221E60F9002707F2 /* ChristiansLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE683FE221E60F9002707F2 /* ChristiansLibrary.swift */; };
 		FAE68401221E60F9002707F2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE683FF221E60F9002707F2 /* LoadingView.swift */; };
 		FAE68403221E62EC002707F2 /* CreateWorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE68402221E62EC002707F2 /* CreateWorkoutCell.swift */; };
+		FAE68405221E6E69002707F2 /* ExcerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE68404221E6E69002707F2 /* ExcerciseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FAE683FE221E60F9002707F2 /* ChristiansLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChristiansLibrary.swift; sourceTree = "<group>"; };
 		FAE683FF221E60F9002707F2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		FAE68402221E62EC002707F2 /* CreateWorkoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutCell.swift; sourceTree = "<group>"; };
+		FAE68404221E6E69002707F2 /* ExcerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				68DD8B1F220DDFC3000A1CC3 /* AppDelegate.swift */,
 				FAE683FA221E5C34002707F2 /* Structures */,
 				FAE683F6221E5BD9002707F2 /* Create Workout View */,
+				FAE68406221E6E72002707F2 /* Excercise View */,
 				FAE683FD221E60F9002707F2 /* Christians Library */,
 				68DD8B28220DDFC3000A1CC3 /* LaunchScreen.storyboard */,
 				68DD8B2B220DDFC3000A1CC3 /* Info.plist */,
@@ -101,6 +104,14 @@
 				FAE683FF221E60F9002707F2 /* LoadingView.swift */,
 			);
 			path = "Christians Library";
+			sourceTree = "<group>";
+		};
+		FAE68406221E6E72002707F2 /* Excercise View */ = {
+			isa = PBXGroup;
+			children = (
+				FAE68404221E6E69002707F2 /* ExcerciseViewController.swift */,
+			);
+			path = "Excercise View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE68405221E6E69002707F2 /* ExcerciseViewController.swift in Sources */,
 				FAE683F9221E5C2B002707F2 /* Excercise.swift in Sources */,
 				68DD8B20220DDFC3000A1CC3 /* AppDelegate.swift in Sources */,
 				FAE68400221E60F9002707F2 /* ChristiansLibrary.swift in Sources */,

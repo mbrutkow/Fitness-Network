@@ -25,7 +25,6 @@ class CreateWorkOutViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     
-    
     @IBAction func AddExercise(_ sender: Any) { //Was Any
         let exerciseStr = String(ExerciseEntered.text!) //Should I not unwrap, what does unwrap even mean?
         let reps = Int(Reps.text!) //Get Input
@@ -56,6 +55,15 @@ class CreateWorkOutViewController: UIViewController, UITableViewDataSource, UITa
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! CreateWorkoutCell
         return cell.frame.height
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "excercise") as? ExcerciseViewController {
+            if let navigator = navigationController {
+                viewController.excercise = currWorkout.usersExercises[indexPath.row]
+                navigator.pushViewController(viewController, animated: true)
+            }
+        }
     }
     
 }
